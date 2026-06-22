@@ -1,6 +1,7 @@
 const messages = document.getElementById('messages');
 const input = document.getElementById('messageInput');
-const API_URL = "http://localhost:1234/v1/chat/completions";
+const API_URL =
+"http://192.168.1.50:1234/v1/chat/completions";
 
 const chatHistory = [
   {
